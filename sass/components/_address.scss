@@ -1,0 +1,42 @@
+// .address {
+//   margin-top: 40px;
+// }
+
+// .address__item {
+//   display: flex;
+//   align-items: center;
+// }
+
+.address__item + .address__item {
+  margin-top: 20px;
+}
+
+.city {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.address__link {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  color: $grey-text-color;
+}
+
+.address__icon {
+  margin-right: 20px;
+}
+
+.address__icon--top {
+  align-self: baseline;
+}
+
+.address__mail {
+  text-decoration-line: underline;
+}
+
+.address__list {
+  @media screen and (min-width: 768px) {
+    width: 260px;
+  }
+}
